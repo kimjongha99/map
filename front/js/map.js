@@ -42,7 +42,7 @@ async function getDataSet(category) {
 
   const dataSet = await axios({
     method: "get", // http method
-    url:`https://www.jongha.shop/restaurants?category=${qs}`,
+    url: `https://www.jongha.shop/restaurants?category=${qs}`,
     headers: {}, // packet header
     data: {}, // packet body
   });
