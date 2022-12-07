@@ -21,8 +21,8 @@ exports.insertUsers = async function (connection, userID, password, nickname) {
 };
 
 exports.selectRestaurants = async function (connection, category) {
-  const selectAllRestaurantsQuery = `SELECT title, address, category, videoUrl FROM Restaurants where status = 'A';`;
-  const selectCategorizedRestaurantsQuery = `SELECT title, address, category, videoUrl FROM Restaurants where status = 'A' and category = ?;`;
+  const selectAllRestaurantsQuery = `SELECT title, address, category, videoUrl FROM restaurants where status = 'A';`;
+  const selectCategorizedRestaurantsQuery = `SELECT title, address, category, videoUrl FROM restaurants where status = 'A' and category = ?;`;
 
   const Params = [category];
 
