@@ -8,6 +8,7 @@
 5. 요청이 성공하면, jwt를 localstorage에 저장하고 main page 이동
 
 */
+const url = "https://www.jongha.shop";
 
 const btnSignIn = document.querySelector("#signin");
 
