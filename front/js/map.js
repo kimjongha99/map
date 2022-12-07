@@ -15,7 +15,6 @@
 1. 지도 생성 & 확대 축소 컨트롤러
 https://apis.map.kakao.com/web/sample/addMapControl/
 */
-const url = "http://54.180.5.101:3000";
 
 var container = document.getElementById("map"); //지도를 담을 영역의 DOM 레퍼런스
 var options = {

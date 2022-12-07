@@ -9,7 +9,6 @@
 
 
 */
-const url = "http://54.180.5.101:3000";
 
 const btnSignUp = document.querySelector("#signup");
 
