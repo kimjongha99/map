@@ -9,7 +9,6 @@
 
 
 */
-const url = "https://www.jongha.shop";
 
 const btnSignUp = document.querySelector("#signup");
 
