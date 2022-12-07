@@ -3,14 +3,30 @@
   "description": "개발자가 다녀간 맛집이나 장소 중 좋았던 곳을 소개시켜주는서비스입니다.",
   "dir": "ltr",
   "display": "standalone",
+  "display_override": ["fullscreen", "minimal-ui"],
   "name": "종하맛집,여행코스",
   "orientation": "portrait",
   "scope": "https://www.jongha.shop/",
   "short_name": "데이트코스,맛집",
   "start_url": "https://www.jongha.shop/",
   "theme_color": "#d1d2b3",
-  "categories": [],
-  "screenshots": [],
+  "categories": ["맛집", "데이트", "명소"],
+  "screenshots" : [
+    {
+      "src": "screenshot1.webp",
+      "sizes": "1280x720",
+      "type": "image/webp",
+      "platform": "wide",
+      "label": "Homescreen of Awesome App"
+    },
+    {
+      "src": "screenshot2.webp",
+      "sizes": "1280x720",
+      "type": "image/webp",
+      "platform": "wide",
+      "label": "List of Awesome Resources available in Awesome App"
+    }
+  ],
   "icons": [
     {
       "src": "images/71x71.png",
@@ -686,6 +702,16 @@
     }
   ],
   "shortcuts": [],
+  "related_applications": [
+    {
+      "platform": "",
+      "url": "",
+      "id": ""
+    }, {
+      "platform": "",
+      "url": ""
+    }
+  ],
   "lang": "ko",
   "iarc_rating_id": "\"iarc_rating_id\": \"e58c174a-81d2-5c3c-32cc-34b8de4a52e9\""
 }
