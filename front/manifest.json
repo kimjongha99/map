@@ -10,7 +10,17 @@
   "short_name": "데이트코스,맛집",
   "start_url": "https://www.jongha.shop/",
   "theme_color": "#d1d2b3",
-  "categories": ["맛집", "데이트", "명소"],
+  "categories": ["food", "date", "place"],
+  "share_target": {
+    "action": "https://www.jongha.shop/",
+    "method": "GET",
+    "params": {
+      "title": "foodmap",
+      "text": "foodmap",
+      "url": "https://www.jongha.shop/"
+    }
+  },
+  "prefer_related_applications": true,
   "screenshots" : [
     {
       "src": "screenshot1.webp",
